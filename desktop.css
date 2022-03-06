@@ -1,0 +1,7 @@
+.calculator-container form{
+    height: 700px;
+}
+
+.calculator-container{
+    gap: 40px;
+}

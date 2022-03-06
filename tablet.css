@@ -1,0 +1,25 @@
+
+
+.calculator-container{
+    max-width: none;
+    min-width: none;
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.calculator-container form{
+    position: relative;
+    max-width: none;
+    min-width: none;
+    width: 350px;
+    padding-top: 70px;
+}
+
+.calculator-container label{
+    position: absolute;
+    top: 0;
+    max-width: none;
+}
