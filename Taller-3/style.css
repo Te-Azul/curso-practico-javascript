@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    max-width: 1250px;
+    margin: 0 auto;
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(../Taller-2/19333449.jpg);
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    background-color: rgb(55, 96, 230);
+    text-align: center;
+}
+
+.header__title{
+    padding: 20px 15px;
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    color: rgb(231, 236, 253);
+}
+
+.header__subtitle{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(231, 236, 253);
+    padding: 0 15px;
+    background-color: rgb(55, 96, 180);
+}
+
+.main__promedio{
+    background-color: rgb(231, 236, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.main__promedio-title{
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    margin: 15px 15px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.main__promedio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(55, 96, 230);
+}
+
+.promedio-container__input{
+    height: 150px;
+    max-width: 400px;
+    padding: 5px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 700;
+    overflow: hidden;
+    resize: none;
+    background-color: rgb(231, 236, 253);
+}
+
+.promedio-container__label{
+    max-width: 400px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    color: rgb(231, 236, 253);
+}
+
+.promedio-container__buttons{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.promedio-container__buttons button{
+    width: 195px;
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: none;
+    color: rgb(231, 236, 253);
+    background-color: rgb(31, 31, 128);
+}
+
+.promedio-container__resultado{
+    max-width: 400px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    color: rgb(231, 236, 253);
+}
+
+
+footer {
+    height: 50px;
+    width: 100%;
+    background: rgb(55, 96, 230);
+}
+
+footer p{
+    color: white;
+    font-size: 1.8rem;
+    font-synthesis: 2.4rem;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.main__comodin{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.clarin.com/img/2020/12/17/el-contador-pone-en-orden___uUAdm0S_9_1200x630__1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

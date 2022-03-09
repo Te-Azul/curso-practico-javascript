@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Promedios</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Promedio</h1>
+        <p class="header__subtitle">Este es el tercer taller del curso practico de JavaScript</p>
+    </header>
+
+    <main>
+        <section class="main__promedio">
+            <h2 class="main__promedio-title">Calculadora de promedios en base a 4 algoritmos distintos.</h2>
+            <form action="" class="main__promedio-container">
+                <label  class="promedio-container__label" for="InputList">Ingrese una lista de numeros, separados por una ","</label>
+                <textarea rows="10" cols="1" class="promedio-container__input" id="InputList" placeholder="Ejemplo: 1,2,3,4,5,...,10"></textarea>
+                <div class="promedio-container__buttons">
+                    <button type="button" onclick="calcularMediaAritmetica()">Calcular Aritmetica</button>
+                    <button type="button" onclick="calcularMediana()">Calcular Mediana </button>
+                    <button type="button" onclick="calcularModa()">Calcular Moda </button>
+                    <button type="button" onclick="calcularMedianaArmonica()">Calcular Armonica </button>
+                </div>
+                <div class="promedio-container__resultado">
+                    <p>Resultado: <span id="ResultadoPromedio"></span></p>
+                </div>
+            </form>
+        </section>
+
+        <section class="main__comodin">
+            <div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Gracias por ver</p>
+    </footer>
+
+    <script src="promedio.js"></script>
+</body>
+</html>
